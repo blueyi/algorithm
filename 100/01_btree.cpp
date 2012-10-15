@@ -1,5 +1,5 @@
 /**
-题目：
+01题目：
 输入一棵二元查找树，将该二元查找树转换成一个排序的双向链表。
 要求不能创建任何新的结点，只调整指针的指向。
 ***/
@@ -102,6 +102,7 @@ int main()
 	BSTreeNode *pRoot = NULL;
 	pListIndex = NULL;
 	pHead = NULL;
+	
 	addBSTreeNode(pRoot,10);
 	addBSTreeNode(pRoot,4);
 	addBSTreeNode(pRoot,6);
@@ -113,5 +114,4 @@ int main()
 	ergodicBSTree(pRoot);
 
 	return 0;
-
 }
